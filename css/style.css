@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.box_uno{
+    width: 50%;
+}
+
+.box_uno p {
+    font-size: 23px;
+    margin: 16px 0;
+}
+
+.section{
+    background-color: #fff;
+    width: 30%;
+    height: 150px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+h2{
+    font-size: 13px;
+    color: gray;
+    margin: 10px 0px;
+}
+
+.bell{
+    width: 50%;
+    height: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bell i {
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.porcent{
+    display: flex;
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+.porcent p {
+    color: gray;
+}
+
+.porcent i, span {
+    color: red;
+    margin: 0 5px;
+}
+
+#green i{
+    background-color: green;
+}
+
+#arrouw_green i, span{
+    color: green;
+}
+
+#yellow i {
+    background-color: orange;
+}
+
+.barra{
+    display: flex;
+    margin: 20px 5px;
+}
+
+.barra .uno{
+    width: 75.5%;
+    border-bottom: 5px solid rgb(0, 162, 255);
+}
+
+.barra .dos{
+    width: 24.5%;
+    border-bottom: 5px solid rgb(46, 224, 255);
+}
